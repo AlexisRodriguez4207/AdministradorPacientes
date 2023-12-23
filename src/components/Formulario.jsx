@@ -100,7 +100,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
                         value={email} onChange={(e) => setEmail(e.target.value)} />
                 </div>
                 <div className="mb-5">
-                    <label htmlFor="Alta" className="block text-gray-700 uppercase font-bold">Email: </label>
+                    <label htmlFor="Alta" className="block text-gray-700 uppercase font-bold">Fecha de Alta: </label>
                     <input id="Alta" type="date"
                         className="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
                         value={fecha} onChange={(e) => setFecha(e.target.value)} />
